@@ -1,0 +1,13 @@
+/* Determine a saída exata do programa a seguir e explique como o compilador
+ C  interpreta os argumentos do tipo caractere simples ('\n', '\t', '\"') passados para o modificador %c: 
+#include <stdio.h> 
+#include <stdlib.h> 
+int main() 
+{ 
+ printf("%c%c%cPrimeiro programa", '\n', '\t', '\"'); --> \n dar espaço \t dar espaço da margem '\"' caractere "
+ printf("%c", "\""); 
+ system("PAUSE"); 
+ return 0; 
+}
+
+*/
