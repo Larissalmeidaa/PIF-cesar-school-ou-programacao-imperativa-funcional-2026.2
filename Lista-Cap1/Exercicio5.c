@@ -3,7 +3,7 @@
 //elementos cruciais e diretivas estão faltando no código abaixo:
 
 /*
-main()  - Falta a biblioteca. O int do main. O return 0 para finalzar o código. 
+main()  - Falta a biblioteca. O int do main. O return 0 para finalzar o código. Resultado de como seria abaixo
 {
  printf("Linguagem C");
  system("pause");

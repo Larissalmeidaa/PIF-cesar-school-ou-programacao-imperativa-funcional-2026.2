@@ -24,13 +24,13 @@
 
 #include <stdio.h> //é uma biblioteca permite usar funções de entrada e saída 
 
-int main () 
+int main () // main() É a porta de entrada do programa. Int indica que a função irá retornar em um número inteiro
 {
     char primeiroNome[30];
-    printf("\n\t Qual seu primeiro nome: ");
+    printf("\n Qual seu primeiro nome: ");
     scanf("%s", primeiroNome); // programa finalizou, o 0 significa que 
 
 
-    printf("Seu nome é: %s", primeiroNome);
+    printf("\n Seu nome : %s", primeiroNome);
     return 0;// programa finalizou, o 0 significa que 
 }

@@ -7,3 +7,20 @@ d) printf("Duas\tlinhas\tde\tsaída\nou\tuma?");
 e) printf("%s\n%s\n%s\n", "um", "dois", "três");
 
 */
+
+#include <stdio.h>
+#include <windows.h>
+
+int main()
+{
+    SetConsoleOutputCP(CP_UTF8);
+    SetConsoleCP(CP_UTF8);
+    printf("\n\tBom dia! Shirley.");
+    printf("Você já tomou café? \n");
+    printf("\n\tlinhas\de\dsaida\nou\tuma?");
+    printf("Duas\tlinhas\tde\tsaída\nou\tuma?"); 
+    printf("%s\n%s\n%s\n", "um", "dois", "três");
+
+    return 0;
+
+}

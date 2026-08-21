@@ -3,7 +3,7 @@
 
 int main() 
 {
-    // Write C code here
+    
     int idade = 0;
     
     printf("Digite sua idade:\n");
