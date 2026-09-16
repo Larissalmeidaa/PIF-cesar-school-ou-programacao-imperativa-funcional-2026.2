@@ -7,10 +7,25 @@ centímetros).
 */
 
 #include <stdio.h>
+#include <math.h>
 
 int main()
 {
+    double alturaDegrauCm, alturaTotalM;
+    double alturaTotalCm;
+    int numeroDegraus;
 
+    printf("Digite a altura de cada degrau (cm): ");
+    scanf("%lf", &alturaDegrauCm);
+
+    printf("Digite a altura total a alcancar (m): ");
+    scanf("%lf", &alturaTotalM);
+
+    alturaTotalCm = alturaTotalM * 100;   // converte metros para centimetros
+
+    numeroDegraus = (int) ceil(alturaTotalCm / alturaDegrauCm);
+
+    printf("Numero minimo de degraus: %d\n", numeroDegraus);
 
     return 0;
 }

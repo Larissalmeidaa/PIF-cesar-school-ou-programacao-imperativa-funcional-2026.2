@@ -10,7 +10,16 @@ catetos), importando as funções pow() ou sqrt() de <math.h>.
 
 int main()
 {
+    float ladoA, ladoB, hipotenusa;
 
+    printf("Digite o lado a: ");
+    scanf("%f", &ladoA);
+    printf("Digite o lado b: ");
+    scanf("%f", &ladoB);
+
+    hipotenusa = sqrt(pow(ladoA, 2) + pow(ladoB, 2));
+
+    printf("Hipotenusa: %.2f\n", hipotenusa);
 
     return 0;
 }

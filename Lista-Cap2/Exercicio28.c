@@ -13,7 +13,23 @@ tomada de decisão de imposto sem recorrer a laços ou desvios complexos neste c
 
 int main()
 {
+    float horasNormais, horasExtras;
+    float salarioBruto, excedente, imposto;
 
+    printf("Digite o total de horas normais no ano: ");
+    scanf("%f", &horasNormais);
+
+    printf("Digite o total de horas extras no ano: ");
+    scanf("%f", &horasExtras);
+
+    salarioBruto = horasNormais * 10 + horasExtras * 15;
+
+    excedente = salarioBruto - 12000;
+
+    imposto = excedente > 0 ? excedente * 0.10 : 0;
+
+    printf("Salario bruto: R$ %.2f\n", salarioBruto);
+    printf("Imposto: R$ %.2f\n", imposto);
 
     return 0;
 }

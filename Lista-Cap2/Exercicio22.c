@@ -9,7 +9,14 @@ como <ctype.h>.
 
 int main()
 {
+    char letra, minuscula;
 
+    printf("Digite uma letra maiuscula: ");
+    scanf(" %c", &letra);
+
+    minuscula = letra + 32;
+
+    printf("Letra minuscula: %c\n", minuscula);
 
     return 0;
 }

@@ -9,7 +9,15 @@ número representa.
 
 int main()
 {
+    char letra;
 
+    printf("Digite um caractere: ");
+    scanf(" %c", &letra);
+
+    // O numero exibido eh o codigo ASCII do caractere digitado.
+    // Todo char eh guardado na memoria como um numero (1 byte),
+    // e a tabela ASCII define qual numero corresponde a qual simbolo.
+    printf("Codigo ASCII: %d\n", letra);
 
     return 0;
 }

@@ -8,7 +8,20 @@ justificando sua implementação lógica.
 
 int main()
 {
+    int numero, antecessor, sucessor;
 
+    printf("Digite um numero inteiro: ");
+    scanf("%d", &numero);
+
+    antecessor = numero; // copia o valor do numero
+    antecessor--; //agora decrementa a cópia, não o número original
+
+    sucessor = numero;
+    sucessor++;
+
+    printf("Antecessor: %d\n", antecessor);
+    printf("Numero digitado: %d\n", numero);
+    printf("Sucessor: %d\n", sucessor);
 
     return 0;
 }
