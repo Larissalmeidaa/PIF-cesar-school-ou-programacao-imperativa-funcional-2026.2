@@ -10,7 +10,6 @@ O programa deve validar as opções do menu e só finalizar a execução quando 
 expressamente selecionada.
 */
 #include <stdio.h>
-#include <stdlib.h>
 
 int main()
 {
@@ -48,6 +47,6 @@ int main()
 
     } while (opcao != 3);
 
-    system("PAUSE");
+   
     return 0;
 }
